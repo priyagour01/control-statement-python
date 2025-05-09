@@ -6,15 +6,15 @@ i = 2
 while i <= 10:
     print(i , end=' ')
     i=i+2
-print("Even number", n , "are:")    
-
+   
 #2) write a program to print even up to number.
 n = int (input("Enter a number:"))
-print("Even number up to", n , "are:")
+# print("Even number up to", n , "are:")
 i = 2
 while i <= n:
     print(i , end=' ')
     i=i+2    
+print("Even number up to is:", n )
 
 # 1)write a program to print n natural number.
 n= int (input("Enter a natural number"))
@@ -92,15 +92,17 @@ while i <=n:
 print("Sum of even number" , n , "is:" , sum)  
  
  
-# 8) write a program to print sum of even number upto n natural. 
-n = int(input("Enter how many even natural number you want sum:"))
-sum = 0
-i = 1
-count = 0
+# 8) write a program to print sum of even number upto n natural.
+ 
 
-while count < n:
-    even = i * 2
-    sum = even + sum
-    count = count+i
-    i = i+1
-print("sum of",n,"even natural numbers is:" , sum)    
+n = int (input("Enter a number"))
+sum = 0
+i = 2
+
+while i <=10:
+    sum = sum+i
+    i = i+2
+print("Sum of even number" , n , "is:" , sum)  
+
+
+  
